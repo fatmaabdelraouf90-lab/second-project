@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project - Component</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="componant.html">Component</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Component Library</h2>
+
+            <!-- Alert Component -->
+            <article style="margin-top: 20px;">
+                <h3>1. Alert / Notification Boxes</h3>
+                <div class="alert alert-info" role="alert">
+                    <strong>Info:</strong> Welcome to the component showcase page!
+                </div>
+                <div class="alert alert-success" role="alert">
+                    <strong>Success:</strong> Component loaded successfully.
+                </div>
+            </article>
+
+            <!-- CSS-Only Modal Component -->
+            <article style="margin-top: 20px;">
+                <h3>2. CSS-Only Modal Window</h3>
+                <p style="margin-bottom: 15px;">Click the button below to trigger a modal without JavaScript:</p>
+                <a href="#modal-demo" class="btn">Open Modal Window</a>
+
+                <!-- Modal Structure -->
+                <div id="modal-demo" class="modal-overlay" aria-label="Demo Modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn" aria-label="Close Modal">&times;</a>
+                        <h3>CSS Modal Title</h3>
+                        <p>This modal is opened using pure CSS <code>:target</code> selector and closed by clearing the
+                            hash!</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Form Elements Showcase -->
+            <article style="margin-top: 20px;">
+                <h3>3. Styled Form Elements</h3>
+                <form action="#" method="post" style="max-width: 400px; margin-top: 15px;">
+                    <div class="form-group">
+                        <label for="demo-input">Sample Input:</label>
+                        <input type="text" id="demo-input" placeholder="Type here...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="demo-select">Sample Dropdown:</label>
+                        <select id="demo-select">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn">Submit Button</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Blog</p>
+    </footer>
+
+</body>
+
+</html>
